@@ -1,0 +1,47 @@
+# Node Modules
+node_modules/
+
+# Cypress Specific
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/cache/
+cypress/results/
+cypress/Reports/
+
+# Environment Variables
+.env
+.env.*
+*.local
+
+# Build Artifacts
+dist/
+build/
+out/
+.DS_Store #macOS specific
+
+# Temporary Files
+*.log
+*.tmp
+*.swp
+*.swo
+.cache/
+.nyc_output/
+coverage/
+package-lock.json #if using yarn.lock, exclude yarn.lock instead.
+
+# IDE Specific
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS Specific
+Thumbs.db
+*.DS_Store
+
+# Reports
+mochawesome-report/
+allure-results/
